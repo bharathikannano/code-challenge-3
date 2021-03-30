@@ -14,7 +14,7 @@ export default class Discover extends Component {
   }
 
   render() {
-    const { newReleases, playlists, categories } = this.state;
+    const { newReleases, playlists, categories } = this.props;
 
     return (
       <div className="discover">
